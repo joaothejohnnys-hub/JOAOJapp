@@ -46,7 +46,7 @@ namespace JOAOJapp
                     telaPrincipal.ShowDialog();
                     this.Visible = true;    
 
-                   // this.Hide();
+                   this.Hide();
                 }
                 else
                 {
@@ -59,6 +59,11 @@ namespace JOAOJapp
         {
             FrmCadastro frmCadastro = new FrmCadastro();  
             frmCadastro.ShowDialog();
+        }
+
+        private void lblusuario_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

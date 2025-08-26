@@ -90,6 +90,9 @@
     <EmbeddedResource Include="FrmCadastro.resx">
       <DependentUpon>FrmCadastro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmJordan1.resx">
+      <DependentUpon>FrmJordan1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -142,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\air-jordan-logo-freelogovectors.net_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jokez Apparel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

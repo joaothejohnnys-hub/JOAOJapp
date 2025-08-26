@@ -30,7 +30,8 @@ namespace JOAOJapp
                 this.Visible = false; // ou this.Close(); se quiser fechar
                 Frm2 frm2 = new Frm2();
                 frm2.ShowDialog();
-                this.Visible = true;
+                this.Hide();
+                
             }
             else
             {
